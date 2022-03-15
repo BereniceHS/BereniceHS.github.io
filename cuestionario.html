@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+	<h1>Formularios en HTML</h1>
+	</header>
+<nav><nav> 
+		<ul>
+		<li><a href="../index.html">Inicio</a></li>
+		
+		<li><a href="estilos.html">Etilos</a></li>
+		<li><a href="imagenes.html">Imagenes</a></li>
+		<li><a href="listas.html">Listas</a></li>
+		<li><a href="tablas.html">Tablas</a></li>
+		<li><a href="tablas 2.html">Tablas Rayas</a></li>
+		</ul>
+	</nav></nav>
+<main>
+  <section>
+		<h2>Formulario de ingreso o autentificacion</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi id nesciunt, saepe sunt at animi. Quis obcaecati laborum adipisci ipsam, facilis, sit unde vero et accusamus delectus quaerat, velit.</p>
+	     <form action="proformulario.html">
+	       <label>Usuario</label>
+		   <input type="text" id="usuario" name="usuario">
+	       <label>Contraseña</label>
+			 <input type="password" id="contraseña" name="contraseña">
+			 <input type="submit" value="Enviar">
+	     </form>
+  </section>
+  <section>
+	      <h2>Formulario Encuesta</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi id nesciunt, saepe sunt at animi. Quis obcaecati laborum adipisci ipsam, facilis, sit unde vero et accusamus delectus quaerat, velit.</p>
+	 <form action="proformulario.html" id="form1" name="form1" method="post">
+		 <h3>Encuesta</h3>
+	 <label for="number">Edad:</label>
+    <input name="number" type="number" id="number" max="50" min="18">
+		<br>
+		<p>
+		 <label>Genero:</label>
+		<br>
+		 <label>
+		  <input type="radio" name="Genero" value="Femenino" id="Genero_0"> 
+		 Fermenino</label>
+			<br>
+			<label>
+			 <input type="radio" name="Genero" value="Masculino" id="Genero_1"> 
+		 Masculino</label>
+			
+		</p>
+	   <p>
+		 <label>¿Que tipo de musica te gusta?</label>
+			 <br>
+		 <label>
+		   <input type="checkbox" name="RadioGroup1" value="opción" id="RadioGroup1_0">
+			   Rock</label>
+			 <br>
+			 <label>
+			   <input type="checkbox" name="RadioGroup1" value="opción" id="RadioGroup1_1">
+			   Jazz</label>
+			 <br>
+			 <label>
+			   <input type="checkbox" name="RadioGroup1" value="opción" id="RadioGroup1_2">
+			   Pop</label>
+			 <br>
+		   <label>
+			   <input name="RadioGroup1" type="checkbox" id="RadioGroup1_2" value="opción">
+			   Electronica</label>
+			 <br>
+		   <label>
+			   <input type="checkbox" name="RadioGroup1" value="opción" id="RadioGroup1_2">
+			   Rap</label>
+			 <br>
+		   <label>
+			   <input type="checkbox" name="RadioGroup1" value="opción" id="RadioGroup1_2">
+			   Salsa</label>
+		   
+			 <br>
+       </p>
+		 <input type="submit" name="submit2" id="submit2" value="Enviar">
+    </form>  
+  </section>
+  <section>
+	      <h2>Formulario de Comenterio</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi id nesciunt, saepe sunt at animi. Quis obcaecati laborum adipisci ipsam, facilis, sit unde vero et accusamus delectus quaerat, velit.</p>
+	      <form action="proformulario.html" id="form2" name="form2" method="post">
+	        <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+	        <br>
+			  <br>
+	      <label for="textarea">Comenterio:</label>
+    <textarea name="textarea" id="textarea"></textarea>
+			  <br>
+			  <br>
+	      <input type="submit" name="submit" id="submit" value="Enviar">
+			   </form>
+	  
+  </section>
+	    <section>
+	      <h2 data_temp_dwid="1">Formulario Propio</h2>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi id nesciunt, saepe sunt at animi. Quis obcaecati laborum adipisci ipsam, facilis, sit unde vero et accusamus delectus quaerat, velit.</p>
+	     <form action="/action_page.php">
+			<label for="birthday">Fecha de Nacimiento:</label>
+            <input type="date" id="birthday" name="birthday">
+			 <br>
+			 <br>
+			 <label>Nombre</label>
+			 <br>
+		   <input type="text" id="nombre" name="nombre">
+			 <br>
+	       <label>Apellido Paterno</label>
+			 <br>
+			 <input type="apellidop" id="apellidop" name="apellidop">
+			 <br>
+			 <label>Apellido Materno</label>
+			 <br>
+			 <input type="apellidom" id="apellidom" name="apellidom">
+			 <br>
+			 <br>
+			 <form action="/action_page.php">
+  <label for="favcolor">¿Cual es tu Color favorito?:</label>
+				 <br>
+		
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+ 
+</form>
+<br>
+			 <br>
+            <input type="submit" value="Enviar">
+		
+			</form>
+  </section>
+  </main>
+	<footer>
+      <h6>Helaborado por Berenice Huerta Salazar</h6>
+</footer>
+</body>
+</html>
